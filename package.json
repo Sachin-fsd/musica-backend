@@ -1,18 +1,28 @@
 {
-  "name": "be",
+  "name": "musica-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachin-fsd/musica-backend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sachin-fsd/musica-backend/issues"
+  },
+  "homepage": "https://github.com/Sachin-fsd/musica-backend#readme",
   "dependencies": {
-    "axios": "^1.8.4",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.11",
+    "socket.io": "^4.8.3"
   }
 }
